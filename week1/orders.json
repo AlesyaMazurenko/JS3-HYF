@@ -1,0 +1,46 @@
+{
+  "orders": [
+    {
+      "order_name": "Order One",
+      "order_id": "1001",
+      "price": 120,
+      "list_of_drinks": [
+        {
+          "name": "filtered_coffee",
+          "amount": 1
+        },
+        {
+          "name": "cappucchino",
+          "amount": 2
+        }
+      ],
+      "order_extras": [
+        {
+          "cupcake": 1,
+          "cheese": 4
+        }
+      ]
+    },
+    {
+      "order_name": "Order Two",
+      "order_id": "1002",
+      "price": 120,
+      "list_of_drinks": [
+        {
+          "name": "tea",
+          "amount": 1
+        },
+        {
+          "name": "beer",
+          "amount": 3
+        }
+      ],
+      "order_extras": [
+        {
+          "name": "burger",
+          "amount": 4
+        }
+      ]
+    }
+  ]
+}
